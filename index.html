@@ -19,7 +19,7 @@
 
 <body>
   <header>
-    <div class="pt-12 flex justify-center">
+    <div class="pt-12 flex justify-center desktop:pt-[80px]">
       <svg width="118" height="28" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
           <g>
@@ -38,16 +38,16 @@
         </picture>
     </div>
     <div
-      class="px-[35px] pb-8 mt-12 flex flex-col items-center tablet:px-[44px] tablet:pb-[64px] desktop:flex-row desktop:mt-[64px] desktop:gap-x-[32px] desktop:px-[80px] desktop:justify-center">
-      <div class="hidden desktop:block">
-        <img src="./assets/desktop/image-hero-left.png" alt="">
+      class="px-[35px] pb-8 pt-16 flex flex-col items-center tablet:px-[44px] tablet:pb-[64px] desktop:flex-row  desktop:gap-x-[32px] desktop:px-[0px] desktop:justify-between overflow-hidden">
+      <div class="hidden desktop:block desktop:relative desktop:right-[25px] desktop:bottom-[57px] overflow-hidden">
+        <img width="394" height="303" src="./assets/desktop/image-hero-left.png" alt="">
       </div>
       <div class="max-w-[448px]">
-        <h1 class="font-black font-Red-Hat-Display text-[40px] leading-[110%] text-center text-slate-900 mb-6">
+        <h1 class="font-black font-Red-Hat-Display text-[40px] desktop:text-[64px] leading-[110%] text-center text-slate-900 mb-6 desktop:mb-8">
           Group Chat<br />
           for Everyone
         </h1>
-        <p class="font-medium text-[16px] leading-[150%] text-center text-slate-600 mb-6">
+        <p class="font-medium text-[16px] desktop:text-[18px] leading-[150%] text-center text-slate-600 mb-6 desktop:mb-8">
           Meet makes it easy to connect with others face-to-face virtually and
           collaborate across any device.
         </p>
@@ -59,7 +59,7 @@
             is it?</button>
         </div>
       </div>
-      <div class="hidden desktop:block">
+      <div class="hidden desktop:block desktop:relative desktop:left-[24px] desktop:top-[57px] overflow-hidden">
         <img src="./assets/desktop/image-hero-right.png" alt="">
       </div>
     </div>
@@ -91,16 +91,16 @@
         <div class="max-w-[540px] flex flex-col items-center mx-auto">
           <div class="max-w-[445px]">
             <div
-              class="font-black text-[12px] leading-[110%] tracking-[.33em] uppercase text-center text-cyan-600 mb-4">
+              class="font-black text-[12px] desktop:text-[16px] leading-[110%] tracking-[.29em] uppercase text-center text-cyan-600 mb-4">
               Built for modern use
             </div>
-            <h2 class="font-black text-[32px] leading-[110%] text-center text-slate-900 mb-8">
+            <h2 class="font-black text-[32px] desktop:text-[40px] leading-[110%] text-center text-slate-900 mb-8">
               Smarter meetings, all in one place
             </h2>
           </div>
-          <p class="font-medium text-[16px] leading-[150%] text-center text-slate-600">
+          <p class="font-medium text-[16px] desktop:text-[18px] leading-[150%] text-center text-slate-600">
             Send messages, share files, show your
-            screen, and record <span class="tablet:mr-10">your</span> meetings — all in one workspace. Control who can
+            screen, and record <span class="tablet:mr-10 desktop:mr-0">your</span> meetings — all in one workspace. Control who can
             join with invite-only team access, data encryption, and data export.
           </p>
         </div>
@@ -109,7 +109,7 @@
   </main>
   <footer class="font-Red-Hat-Display">
     <div>
-      <div class="h-max flex flex-col items-center z-50 relative top-[25px]">
+      <div class="flex flex-col items-center z-50 relative top-[25px]">
         <div class="w-px bg-slate-300 h-20"></div>
         <div
           class="w-[56px] py-4 px-[19px] rounded-full border-solid border-[1px] border-slate-300 bg-white flex justify-center items-center">
@@ -117,8 +117,8 @@
         </div>
       </div>
       <div
-        class="bg-bgfooter bg-center bg-cover bg-no-repeat relative before:bg-cyan-600 before:absolute  before:top-0 before:bottom-0 before:w-full before:h-full before:opacity-90 desktop:bg-bgDesktop">
-        <div class="max-w-[1120px] py-16 px-8 mx-auto flex flex-col tablet:px-[132px] desktop:flex-row desktop:gap-x-[32px]">
+        class="bg-bgfooter bg-center bg-cover bg-no-repeat relative before:bg-cyan-600 before:absolute  before:top-0 before:bottom-0 before:w-full before:h-full before:opacity-90 desktop:bg-bgDesktop desktop:flex desktop:justify-center desktop:items-center">
+        <div class="max-w-[1120px] py-16 px-8 desktop:py-[112px] flex flex-col tablet:px-[132px] desktop:flex-row desktop:gap-x-[32px]">
           <h2 class="z-10 font-black text-[32px] leading-[110%] text-center text-white  mb-6 desktop:text-left desktop:w-[400px]">Experience <span class="">more</span> together
           </h2>
           <p class="z-10 font-medium text-[16px] leading-[150%] text-center text-white mb-6 desktop:w-[355px] desktop:text-left ">Stay connected with
